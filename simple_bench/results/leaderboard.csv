@@ -1,0 +1,5 @@
+solver,total_runs,avg_objective,median_objective,avg_gap_pct,median_gap_pct,worst_gap_pct,win_rate_pct,avg_runtime,timeout_rate_pct
+SA,84,938.18,935.0,0.65,0.0,5.67,79.76,1.87,0.0
+Greedy_LS,84,939.82,989.0,0.87,0.0,10.16,77.38,0.44,0.0
+Tabu,84,1491.44,1197.0,64.61,14.71,308.76,23.81,2.17,0.0
+MIP,48,1697.25,1841.0,70.53,68.21,202.52,25.0,1.74,0.0
