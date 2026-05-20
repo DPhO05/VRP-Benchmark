@@ -1,0 +1,40 @@
+case_id,split,distribution,N,K,seed,size_group,solver,language,run_id,time_limit,valid,obj,total_length,std_length,runtime_sec,best_known,gap_to_best,lower_bound,gap_to_lb,error
+test1,sample,sample,10,2,,tiny,Greedy_Pure,cpp,0,4.0,True,28,53,1.5,0.562163667,28.0,0.0,20.5,36.58536585365854,
+test1,sample,sample,10,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,28,55,0.5,0.45951874999999986,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test1,sample,sample,10,2,,tiny,Greedy_SA,cpp,0,4.0,True,28,53,1.5,0.6152811659999999,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test10,sample,sample,900,20,,stress,Greedy_Pure,cpp,0,4.0,True,87,1553,8.719374977600172,0.3201209170000001,75.0,16.0,67.0,29.850746268656714,
+test10,sample,sample,900,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,75,1458,5.602677931132576,4.004201917,75.0,0.0,67.0,11.940298507462686,Objective (maxRouteLen) = 75
+test10,sample,sample,900,20,,stress,Greedy_SA,cpp,0,4.0,True,75,1456,5.1146847410177685,4.003838416,75.0,0.0,67.0,11.940298507462686,Objective (maxRouteLen) = 75
+test11,sample,sample,200,10,,large,Greedy_Pure,cpp,0,4.0,True,30,274,1.2,0.020834499999999423,26.0,15.384615384615385,26.0,15.384615384615385,
+test11,sample,sample,200,10,,large,Greedy_LocalSearch_CPP,cpp,0,4.0,True,26,256,0.4898979485566356,0.8847974159999996,26.0,0.0,26.0,0.0,Objective (maxRouteLen) = 26
+test11,sample,sample,200,10,,large,Greedy_SA,cpp,0,4.0,True,26,251,0.7,4.0034456249999995,26.0,0.0,26.0,0.0,Objective (maxRouteLen) = 26
+test12,sample,sample,6,2,,tiny,Greedy_Pure,cpp,0,4.0,True,10,19,0.5,0.0028707920000012876,10.0,0.0,9.0,11.11111111111111,
+test12,sample,sample,6,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,10,19,0.5,0.016614083000000335,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test12,sample,sample,6,2,,tiny,Greedy_SA,cpp,0,4.0,True,10,19,0.5,0.07341454200000008,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test13,sample,sample,6,2,,tiny,Greedy_Pure,cpp,0,4.0,True,10,19,0.5,0.0026220420000004907,10.0,0.0,9.0,11.11111111111111,
+test13,sample,sample,6,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,10,19,0.5,0.019202707999999902,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test13,sample,sample,6,2,,tiny,Greedy_SA,cpp,0,4.0,True,10,19,0.5,0.07310225000000159,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test2,sample,sample,600,20,,stress,Greedy_Pure,cpp,0,4.0,True,74,1359,3.4709508783617204,0.13752433400000008,66.0,12.121212121212121,67.0,10.44776119402985,
+test2,sample,sample,600,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,66,1293,1.82414363469547,1.9997765829999992,66.0,0.0,67.0,-1.4925373134328357,Objective (maxRouteLen) = 66
+test2,sample,sample,600,20,,stress,Greedy_SA,cpp,0,4.0,True,66,1286,1.452583904633395,4.003371083000001,66.0,0.0,67.0,-1.4925373134328357,Objective (maxRouteLen) = 66
+test3,sample,sample,800,20,,stress,Greedy_Pure,cpp,0,4.0,True,79,1425,3.9984371947049513,0.33820525000000146,72.0,9.722222222222223,68.0,16.176470588235293,
+test3,sample,sample,800,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,72,1397,3.79835490706174,3.4814529579999984,72.0,0.0,68.0,5.88235294117647,Objective (maxRouteLen) = 72
+test3,sample,sample,800,20,,stress,Greedy_SA,cpp,0,4.0,True,72,1382,4.158124577258358,4.003300249999999,72.0,0.0,68.0,5.88235294117647,Objective (maxRouteLen) = 72
+test4,sample,sample,1000,20,,stress,Greedy_Pure,cpp,0,4.0,True,86,1577,5.668112560632507,0.3694024159999998,77.0,11.688311688311687,69.0,24.637681159420293,
+test4,sample,sample,1000,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,77,1508,2.353720459187964,4.005366791,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test4,sample,sample,1000,20,,stress,Greedy_SA,cpp,0,4.0,True,77,1496,3.059411708155671,4.004410832999994,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test5,sample,sample,1000,20,,stress,Greedy_Pure,cpp,0,4.0,True,86,1577,5.668112560632507,0.3779372919999986,77.0,11.688311688311687,69.0,24.637681159420293,
+test5,sample,sample,1000,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,77,1508,2.353720459187964,4.003950042,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test5,sample,sample,1000,20,,stress,Greedy_SA,cpp,0,4.0,True,77,1496,3.059411708155671,4.003578041000004,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test6,sample,sample,700,20,,stress,Greedy_Pure,cpp,0,4.0,True,80,1448,5.435071296680476,0.1902560000000051,70.0,14.285714285714285,68.0,17.647058823529413,
+test6,sample,sample,700,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,70,1378,1.1357816691600546,2.902627916,70.0,0.0,68.0,2.941176470588235,Objective (maxRouteLen) = 70
+test6,sample,sample,700,20,,stress,Greedy_SA,cpp,0,4.0,True,70,1367,1.3518505834595773,4.004263458000004,70.0,0.0,68.0,2.941176470588235,Objective (maxRouteLen) = 70
+test7,sample,sample,100,5,,medium,Greedy_Pure,cpp,0,4.0,True,36,173,1.3564659966250536,0.009958041999993839,31.0,16.129032258064516,26.0,38.46153846153847,
+test7,sample,sample,100,5,,medium,Greedy_LocalSearch_CPP,cpp,0,4.0,True,33,164,0.4,0.42354004100000253,31.0,6.451612903225806,26.0,26.923076923076923,Objective (maxRouteLen) = 33
+test7,sample,sample,100,5,,medium,Greedy_SA,cpp,0,4.0,True,31,153,0.8,2.0154702079999964,31.0,0.0,26.0,19.230769230769234,Objective (maxRouteLen) = 31
+test8,sample,sample,500,10,,large,Greedy_Pure,cpp,0,4.0,True,107,1010,4.711687595755898,0.09972787499999924,93.0,15.053763440860216,67.0,59.70149253731343,
+test8,sample,sample,500,10,,large,Greedy_LocalSearch_CPP,cpp,0,4.0,True,95,932,1.4,4.030919584000003,93.0,2.1505376344086025,67.0,41.7910447761194,Objective (maxRouteLen) = 95
+test8,sample,sample,500,10,,large,Greedy_SA,cpp,0,4.0,True,93,917,1.7349351572897473,4.0326316250000005,93.0,0.0,67.0,38.80597014925373,Objective (maxRouteLen) = 93
+test9,sample,sample,100,5,,medium,Greedy_Pure,cpp,0,4.0,True,36,173,1.3564659966250536,0.006444917000010264,31.0,16.129032258064516,26.0,38.46153846153847,
+test9,sample,sample,100,5,,medium,Greedy_LocalSearch_CPP,cpp,0,4.0,True,33,164,0.4,0.4415240419999975,31.0,6.451612903225806,26.0,26.923076923076923,Objective (maxRouteLen) = 33
+test9,sample,sample,100,5,,medium,Greedy_SA,cpp,0,4.0,True,31,153,0.8,2.1323135829999984,31.0,0.0,26.0,19.230769230769234,Objective (maxRouteLen) = 31

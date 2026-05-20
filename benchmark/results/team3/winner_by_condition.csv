@@ -1,0 +1,8 @@
+time_limit,distribution,N,K,size_group,quality_winner,practical_winner,winner_mean_obj,winner_avg_runtime,runner_up_gap_pct,Greedy_RL_mean_obj,Greedy_LocalSearch_CPP_mean_obj,MIP_CBC_ORTools_mean_obj
+8.0,adversarial,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL,Greedy_LocalSearch_CPP,1057.0,0.04519154099999989,0.0,1057.0,1057.0,1060.0
+8.0,cluster,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,661.0,0.04411166600000094,0.0,661.0,661.0,661.0
+8.0,grid,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,1132.0,0.07459637499999872,0.0,1132.0,1132.0,1132.0
+8.0,line,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,451.0,0.054134791999999265,0.0,451.0,451.0,451.0
+8.0,outlier,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,558.0,0.039489333999995324,0.0,558.0,558.0,558.0
+8.0,ring,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,559.0,0.09783908300000377,0.0,559.0,559.0,559.0
+8.0,uniform,12,3,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools,Greedy_LocalSearch_CPP,1108.0,0.09761995800000278,0.0,1108.0,1108.0,1108.0

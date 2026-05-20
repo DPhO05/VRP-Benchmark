@@ -1,0 +1,4 @@
+case_id,split,distribution,N,K,seed,size_group,solver,language,run_id,time_limit,valid,obj,total_length,std_length,runtime_sec,best_known,gap_to_best,lower_bound,gap_to_lb,error
+test1,sample,sample,10,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,2.0,True,28,55,0.5,0.5513830000000001,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test1,sample,sample,10,2,,tiny,SA_Algo,cpp,0,2.0,True,28,54,1.0,0.41509708300000003,28.0,0.0,20.5,36.58536585365854,
+test1,sample,sample,10,2,,tiny,MIP_CBC_ORTools,python,0,2.0,True,28,56,0.0,1.016944667,28.0,0.0,20.5,36.58536585365854,Runtime: 0.863160

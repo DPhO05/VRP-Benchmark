@@ -1,0 +1,66 @@
+case_id,split,distribution,N,K,seed,size_group,solver,language,run_id,time_limit,valid,obj,total_length,std_length,runtime_sec,best_known,gap_to_best,lower_bound,gap_to_lb,error
+test1,sample,sample,10,2,,tiny,Greedy_RL,python,0,4.0,True,28,53,1.5,4.031179333,28.0,0.0,20.5,36.58536585365854,
+test1,sample,sample,10,2,,tiny,MIP_CBC_ORTools,python,0,4.0,True,28,54,1.0,1.201479708,28.0,0.0,20.5,36.58536585365854,Runtime: 0.933968
+test1,sample,sample,10,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,28,55,0.5,0.6411086669999992,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test1,sample,sample,10,2,,tiny,Greedy_SA,cpp,0,4.0,True,28,55,0.5,0.6239799159999997,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test1,sample,sample,10,2,,tiny,Greedy_Tabu,cpp,0,4.0,True,28,55,0.5,0.7095547499999997,28.0,0.0,20.5,36.58536585365854,Objective (maxRouteLen) = 28
+test10,sample,sample,900,20,,stress,Greedy_RL,python,0,4.0,True,79,1553,1.061838029079765,4.103503084,75.0,5.333333333333334,67.0,17.91044776119403,
+test10,sample,sample,900,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,75.0,,67.0,,SKIPPED_N_GT_35
+test10,sample,sample,900,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,75,1458,5.602677931132576,4.006947624999999,75.0,0.0,67.0,11.940298507462686,Objective (maxRouteLen) = 75
+test10,sample,sample,900,20,,stress,Greedy_SA,cpp,0,4.0,True,75,1458,5.602677931132576,4.003334334,75.0,0.0,67.0,11.940298507462686,Objective (maxRouteLen) = 75
+test10,sample,sample,900,20,,stress,Greedy_Tabu,cpp,0,4.0,True,75,1458,5.602677931132576,4.003659875,75.0,0.0,67.0,11.940298507462686,Objective (maxRouteLen) = 75
+test11,sample,sample,200,10,,large,Greedy_RL,python,0,4.0,True,30,285,1.3601470508735443,4.031663124999998,26.0,15.384615384615385,26.0,15.384615384615385,
+test11,sample,sample,200,10,,large,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,26.0,,26.0,,SKIPPED_N_GT_35
+test11,sample,sample,200,10,,large,Greedy_LocalSearch_CPP,cpp,0,4.0,True,26,256,0.4898979485566356,0.7239570420000021,26.0,0.0,26.0,0.0,Objective (maxRouteLen) = 26
+test11,sample,sample,200,10,,large,Greedy_SA,cpp,0,4.0,True,26,256,0.4898979485566356,3.5222690839999977,26.0,0.0,26.0,0.0,Objective (maxRouteLen) = 26
+test11,sample,sample,200,10,,large,Greedy_Tabu,cpp,0,4.0,True,26,256,0.4898979485566356,4.002633165999999,26.0,0.0,26.0,0.0,Objective (maxRouteLen) = 26
+test12,sample,sample,6,2,,tiny,Greedy_RL,python,0,4.0,True,10,19,0.5,4.022589791999998,10.0,0.0,9.0,11.11111111111111,
+test12,sample,sample,6,2,,tiny,MIP_CBC_ORTools,python,0,4.0,True,10,19,0.5,0.1729046669999974,10.0,0.0,9.0,11.11111111111111,Runtime: 0.110327
+test12,sample,sample,6,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,10,19,0.5,0.016768458000001374,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test12,sample,sample,6,2,,tiny,Greedy_SA,cpp,0,4.0,True,10,19,0.5,0.06805454199999872,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test12,sample,sample,6,2,,tiny,Greedy_Tabu,cpp,0,4.0,True,10,19,0.5,0.08395149999999774,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test13,sample,sample,6,2,,tiny,Greedy_RL,python,0,4.0,True,10,19,0.5,4.023020165999995,10.0,0.0,9.0,11.11111111111111,
+test13,sample,sample,6,2,,tiny,MIP_CBC_ORTools,python,0,4.0,True,10,19,0.5,0.18377550000000298,10.0,0.0,9.0,11.11111111111111,Runtime: 0.122970
+test13,sample,sample,6,2,,tiny,Greedy_LocalSearch_CPP,cpp,0,4.0,True,10,19,0.5,0.017818874999996126,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test13,sample,sample,6,2,,tiny,Greedy_SA,cpp,0,4.0,True,10,19,0.5,0.06923304200000047,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test13,sample,sample,6,2,,tiny,Greedy_Tabu,cpp,0,4.0,True,10,19,0.5,0.0821158749999995,10.0,0.0,9.0,11.11111111111111,Objective (maxRouteLen) = 10
+test2,sample,sample,600,20,,stress,Greedy_RL,python,0,4.0,True,72,1406,1.1874342087037917,4.062311749999999,66.0,9.090909090909092,67.0,7.462686567164178,
+test2,sample,sample,600,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,66.0,,67.0,,SKIPPED_N_GT_35
+test2,sample,sample,600,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,66,1293,1.82414363469547,1.8291329999999988,66.0,0.0,67.0,-1.4925373134328357,Objective (maxRouteLen) = 66
+test2,sample,sample,600,20,,stress,Greedy_SA,cpp,0,4.0,True,66,1293,1.82414363469547,4.002924875000005,66.0,0.0,67.0,-1.4925373134328357,Objective (maxRouteLen) = 66
+test2,sample,sample,600,20,,stress,Greedy_Tabu,cpp,0,4.0,True,66,1293,1.82414363469547,4.002693708999999,66.0,0.0,67.0,-1.4925373134328357,Objective (maxRouteLen) = 66
+test3,sample,sample,800,20,,stress,Greedy_RL,python,0,4.0,True,79,1542,1.374772708486752,4.089282292,72.0,9.722222222222223,68.0,16.176470588235293,
+test3,sample,sample,800,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,72.0,,68.0,,SKIPPED_N_GT_35
+test3,sample,sample,800,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,72,1397,3.79835490706174,3.392899249999992,72.0,0.0,68.0,5.88235294117647,Objective (maxRouteLen) = 72
+test3,sample,sample,800,20,,stress,Greedy_SA,cpp,0,4.0,True,72,1397,3.79835490706174,4.003811458000001,72.0,0.0,68.0,5.88235294117647,Objective (maxRouteLen) = 72
+test3,sample,sample,800,20,,stress,Greedy_Tabu,cpp,0,4.0,True,72,1397,3.79835490706174,4.003937291,72.0,0.0,68.0,5.88235294117647,Objective (maxRouteLen) = 72
+test4,sample,sample,1000,20,,stress,Greedy_RL,python,0,4.0,True,86,1689,1.4309088021254184,4.132289541999995,77.0,11.688311688311687,69.0,24.637681159420293,
+test4,sample,sample,1000,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,77.0,,69.0,,SKIPPED_N_GT_35
+test4,sample,sample,1000,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,77,1508,2.353720459187964,4.004090290999997,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test4,sample,sample,1000,20,,stress,Greedy_SA,cpp,0,4.0,True,77,1508,2.353720459187964,4.004646208000011,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test4,sample,sample,1000,20,,stress,Greedy_Tabu,cpp,0,4.0,True,77,1508,2.353720459187964,4.004104124999998,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test5,sample,sample,1000,20,,stress,Greedy_RL,python,0,4.0,True,86,1689,1.4309088021254184,4.1414697080000025,77.0,11.688311688311687,69.0,24.637681159420293,
+test5,sample,sample,1000,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,77.0,,69.0,,SKIPPED_N_GT_35
+test5,sample,sample,1000,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,77,1508,2.353720459187964,4.005666000000005,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test5,sample,sample,1000,20,,stress,Greedy_SA,cpp,0,4.0,True,77,1508,2.353720459187964,4.003847500000006,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test5,sample,sample,1000,20,,stress,Greedy_Tabu,cpp,0,4.0,True,77,1508,2.353720459187964,4.004425417000007,77.0,0.0,69.0,11.594202898550725,Objective (maxRouteLen) = 77
+test6,sample,sample,700,20,,stress,Greedy_RL,python,0,4.0,True,79,1530,1.5,4.091834542000001,70.0,12.857142857142856,68.0,16.176470588235293,
+test6,sample,sample,700,20,,stress,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,70.0,,68.0,,SKIPPED_N_GT_35
+test6,sample,sample,700,20,,stress,Greedy_LocalSearch_CPP,cpp,0,4.0,True,70,1378,1.1357816691600546,2.697714750000003,70.0,0.0,68.0,2.941176470588235,Objective (maxRouteLen) = 70
+test6,sample,sample,700,20,,stress,Greedy_SA,cpp,0,4.0,True,70,1378,1.1357816691600546,4.003843625000002,70.0,0.0,68.0,2.941176470588235,Objective (maxRouteLen) = 70
+test6,sample,sample,700,20,,stress,Greedy_Tabu,cpp,0,4.0,True,70,1378,1.1357816691600546,4.0045316249999985,70.0,0.0,68.0,2.941176470588235,Objective (maxRouteLen) = 70
+test7,sample,sample,100,5,,medium,Greedy_RL,python,0,4.0,True,36,171,1.16619037896906,4.0345909579999955,32.0,12.5,26.0,38.46153846153847,
+test7,sample,sample,100,5,,medium,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,32.0,,26.0,,SKIPPED_N_GT_35
+test7,sample,sample,100,5,,medium,Greedy_LocalSearch_CPP,cpp,0,4.0,True,33,164,0.4,0.39284725000000265,32.0,3.125,26.0,26.923076923076923,Objective (maxRouteLen) = 33
+test7,sample,sample,100,5,,medium,Greedy_SA,cpp,0,4.0,True,32,158,0.4898979485566356,1.8870086670000035,32.0,0.0,26.0,23.076923076923077,Objective (maxRouteLen) = 32
+test7,sample,sample,100,5,,medium,Greedy_Tabu,cpp,0,4.0,True,32,158,0.4898979485566356,2.3963976249999916,32.0,0.0,26.0,23.076923076923077,Objective (maxRouteLen) = 32
+test8,sample,sample,500,10,,large,Greedy_RL,python,0,4.0,True,102,1000,1.0954451150103321,4.083338999999995,95.0,7.368421052631578,67.0,52.23880597014925,
+test8,sample,sample,500,10,,large,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,95.0,,67.0,,SKIPPED_N_GT_35
+test8,sample,sample,500,10,,large,Greedy_LocalSearch_CPP,cpp,0,4.0,True,95,932,1.4,3.914221791000017,95.0,0.0,67.0,41.7910447761194,Objective (maxRouteLen) = 95
+test8,sample,sample,500,10,,large,Greedy_SA,cpp,0,4.0,True,95,932,1.4,4.003854832999991,95.0,0.0,67.0,41.7910447761194,Objective (maxRouteLen) = 95
+test8,sample,sample,500,10,,large,Greedy_Tabu,cpp,0,4.0,True,95,932,1.4,4.003500790999993,95.0,0.0,67.0,41.7910447761194,Objective (maxRouteLen) = 95
+test9,sample,sample,100,5,,medium,Greedy_RL,python,0,4.0,True,36,171,1.16619037896906,4.034480792000011,32.0,12.5,26.0,38.46153846153847,
+test9,sample,sample,100,5,,medium,MIP_CBC_ORTools,python,0,4.0,False,,,,0.0,32.0,,26.0,,SKIPPED_N_GT_35
+test9,sample,sample,100,5,,medium,Greedy_LocalSearch_CPP,cpp,0,4.0,True,33,164,0.4,0.41086762500000873,32.0,3.125,26.0,26.923076923076923,Objective (maxRouteLen) = 33
+test9,sample,sample,100,5,,medium,Greedy_SA,cpp,0,4.0,True,32,158,0.4898979485566356,2.122241874999986,32.0,0.0,26.0,23.076923076923077,Objective (maxRouteLen) = 32
+test9,sample,sample,100,5,,medium,Greedy_Tabu,cpp,0,4.0,True,32,158,0.4898979485566356,2.562106207999989,32.0,0.0,26.0,23.076923076923077,Objective (maxRouteLen) = 32

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Greedy_RL",
+    "language": "python",
+    "cmd": "python3 Solution/Greedy_RL.py",
+    "timeout_margin": 1.0
+  },
+  {
+    "name": "MIP_CBC_ORTools",
+    "language": "python",
+    "cmd": "python3 benchmark/solvers/team_mip_stdin.py --time-limit {time_limit}",
+    "max_n": 35,
+    "timeout_margin": 3.0
+  },
+  {
+    "name": "Greedy_LocalSearch_CPP",
+    "language": "cpp",
+    "source": "Solution/Greedy_localsearch.cpp",
+    "binary": "benchmark/build/greedy_localsearch",
+    "cmd": "benchmark/build/greedy_localsearch",
+    "timeout_margin": 0.5
+  },
+  {
+    "name": "Greedy_SA",
+    "language": "cpp",
+    "source": "Solution/Greedy_SA.cpp",
+    "binary": "benchmark/build/greedy_sa",
+    "cmd": "benchmark/build/greedy_sa",
+    "timeout_margin": 0.5
+  },
+  {
+    "name": "Greedy_Tabu",
+    "language": "cpp",
+    "source": "Solution/Greedy_Tabu.cpp",
+    "binary": "benchmark/build/greedy_tabu",
+    "cmd": "benchmark/build/greedy_tabu",
+    "timeout_margin": 0.5
+  }
+]
+

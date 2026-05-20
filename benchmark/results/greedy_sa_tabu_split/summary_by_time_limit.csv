@@ -1,0 +1,4 @@
+time_limit,solver,runs,valid_rate,mean_obj,median_obj,avg_gap,median_gap,worst_gap,best_count,avg_runtime
+4.0,Greedy_LocalSearch_CPP,13,100.0,51.69230769230769,66.0,0.4807692307692308,0.0,3.125,11,2.053871596076923
+4.0,Greedy_SA,13,100.0,51.53846153846154,66.0,0.0,0.0,0.0,13,2.7935868076153847
+4.0,Greedy_Tabu,13,100.0,51.53846153846154,66.0,0.0,0.0,0.0,13,2.8973260032307686

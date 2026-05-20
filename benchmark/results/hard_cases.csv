@@ -1,0 +1,5 @@
+case_id,distribution,N,K,solver,obj,best_known,gap_to_best,error
+ring_N12_K3_seed694923750,ring,12,3,Baseline_Greedy,651,559.0,16.457960644007155,
+ring_N12_K3_seed694923750,ring,12,3,Baseline_Greedy_2Opt,648,559.0,15.92128801431127,
+uniform_N12_K3_seed127904007,uniform,12,3,Baseline_Greedy,1514,1108.0,36.64259927797834,
+uniform_N12_K3_seed127904007,uniform,12,3,Baseline_Greedy_2Opt,1514,1108.0,36.64259927797834,

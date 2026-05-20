@@ -1,0 +1,6 @@
+case_id,split,distribution,N,K,seed,size_group,solver,language,run_id,time_limit,valid,obj,total_length,std_length,runtime_sec,best_known,gap_to_best,lower_bound,gap_to_lb,error
+cluster_N12_K3_seed343043869,dev,cluster,12,3,343043869,tiny,Greedy_RL,python,0,8.0,True,661,1838,60.74171182602245,2.630661333,661.0,0.0,545.0,21.28440366972477,
+cluster_N12_K3_seed343043869,dev,cluster,12,3,343043869,tiny,Greedy_LocalSearch_CPP,cpp,0,8.0,True,661,1838,60.74171182602245,0.045583332999999726,661.0,0.0,545.0,21.28440366972477,Objective (maxRouteLen) = 661
+cluster_N12_K3_seed343043869,dev,cluster,12,3,343043869,tiny,MIP_CBC_ORTools,python,0,8.0,True,661,1898,37.96782263385084,5.551417417,661.0,0.0,545.0,21.28440366972477,Runtime: 5.419682
+cluster_N12_K3_seed343043869,dev,cluster,12,3,343043869,tiny,Baseline_Greedy,python,0,8.0,True,661,1941,15.121728296285006,0.026508208000000977,661.0,0.0,545.0,21.28440366972477,
+cluster_N12_K3_seed343043869,dev,cluster,12,3,343043869,tiny,Baseline_Greedy_2Opt,python,0,8.0,True,661,1930,20.237478982214054,0.02497129099999995,661.0,0.0,545.0,21.28440366972477,

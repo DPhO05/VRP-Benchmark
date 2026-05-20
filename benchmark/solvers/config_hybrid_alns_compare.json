@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Greedy_LocalSearch_CPP",
+    "language": "cpp",
+    "source": "Solution/Greedy_localsearch.cpp",
+    "binary": "benchmark/build/greedy_localsearch",
+    "cmd": "benchmark/build/greedy_localsearch",
+    "timeout_margin": 0.5
+  },
+  {
+    "name": "Greedy_SA",
+    "language": "cpp",
+    "source": "Solution/Greedy_SA.cpp",
+    "binary": "benchmark/build/greedy_sa",
+    "cmd": "benchmark/build/greedy_sa",
+    "timeout_margin": 0.5
+  },
+  {
+    "name": "Hybrid_ALNS_SA",
+    "language": "cpp",
+    "source": "Solution/Hybrid_ALNS_SA.cpp",
+    "binary": "benchmark/build/hybrid_alns_sa",
+    "cmd": "benchmark/build/hybrid_alns_sa",
+    "timeout_margin": 0.5
+  }
+]
+

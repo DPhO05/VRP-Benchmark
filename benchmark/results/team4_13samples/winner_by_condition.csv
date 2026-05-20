@@ -1,0 +1,11 @@
+time_limit,distribution,N,K,size_group,quality_winner,practical_winner,winner_mean_obj,winner_avg_runtime,runner_up_gap_pct,Greedy_RL_mean_obj,Greedy_LocalSearch_CPP_mean_obj,MIP_CBC_ORTools_mean_obj,Meta_Greedy_SA_Tabu_mean_obj
+4.0,sample,10,2,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,28.0,0.037513708000000534,0.0,28.0,28.0,28.0,28.0
+4.0,sample,100,5,medium,Meta_Greedy_SA_Tabu,Meta_Greedy_SA_Tabu,32.0,2.052654374500001,3.125,36.0,33.0,,32.0
+4.0,sample,1000,20,stress,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,77.0,4.004989666500002,0.0,86.0,77.0,,77.0
+4.0,sample,200,10,large,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,26.0,0.7236762920000004,0.0,30.0,26.0,,26.0
+4.0,sample,500,10,large,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,95.0,3.9882929999999988,0.0,102.0,95.0,,95.0
+4.0,sample,6,2,tiny,Greedy_LocalSearch_CPP+Greedy_RL+MIP_CBC_ORTools+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,10.0,0.018548416999999873,0.0,10.0,10.0,10.0,10.0
+4.0,sample,600,20,stress,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,66.0,1.851555999999995,0.0,72.0,66.0,,66.0
+4.0,sample,700,20,stress,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,70.0,2.7038582079999998,0.0,79.0,70.0,,70.0
+4.0,sample,800,20,stress,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Greedy_LocalSearch_CPP,72.0,3.7189368339999973,0.0,79.0,72.0,,72.0
+4.0,sample,900,20,stress,Greedy_LocalSearch_CPP+Meta_Greedy_SA_Tabu,Meta_Greedy_SA_Tabu,75.0,4.00284175,0.0,79.0,75.0,,75.0
